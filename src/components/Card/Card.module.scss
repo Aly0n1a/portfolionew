@@ -1,0 +1,88 @@
+.cards {
+    padding-top: 100px;
+    // padding: 60px;
+    background-color: #f8f9fa;
+
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 420px;
+    width: 100%;
+    height: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  .cardContent {
+    position: relative;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: brightness(60%);
+    transition: filter 0.5s ease; 
+  
+    &:hover {
+      filter: brightness(100%); 
+    }
+  }
+  
+  .text {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  
+    h2 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  
+    p {
+      margin: 5px 0 0;
+      font-size: 14px;
+    }
+  }
+
+  .buttoncontainer {
+    display: flex;
+    gap: 20px;
+    justify-content: center; 
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+  
+  .button {
+    background-color: #e9ecef; 
+    color: #212529; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; 
+  
+    &:hover {
+      background-color: #ced4da; 
+    }
+  }
+  

@@ -1,0 +1,45 @@
+/* Убираем стандартный курсор для всего документа */
+body, html {
+    cursor: none; /* Убираем системный курсор */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    @media (max-width: 768px) {
+        body {
+          cursor: default;
+        }
+      }
+  }
+  
+  /* Основные стили для кастомного курсора */
+  .cursor {
+    position: fixed;
+    width: 20px; /* Начальный размер курсора */
+    height: 20px; /* Начальный размер курсора */
+    background-color: rgba(0, 0, 0, 0.8); /* Черный цвет курсора */
+    border: 2px solid #ece3e376; /* Белая обводка */
+    border-radius: 50%; /* Круглый вид */
+    pointer-events: none; /* Чтобы курсор не блокировал клики */
+    transform: translate(-50%, -50%); /* Центрируем курсор относительно мыши */
+    z-index: 9999; /* Чтобы курсор всегда был поверх других элементов */
+    transition: transform 0.2s ease, width 0.2s ease, height 0.2s ease, background-color 0.2s ease, border-color 0.2s ease; /* Плавные анимации */
+    @media (max-width: 768px) {
+    display: none;
+    }
+  }
+
+  
+  /* Увеличение курсора при наведении */
+  .cursor.hover {
+    width: 25px; /* Увеличиваем размер */
+    height: 25px; /* Увеличиваем размер */
+    background-color: rgba(250, 245, 245, 0.53); /* Белый цвет на hover */
+    border: 2px solid rgba(0, 0, 0, 0.8); /* Темная обводка на hover */
+    transform: translate(-50%, -50%) scale(1.2); /* Легкое увеличение при наведении */
+  }
+  
+  /* Убираем стандартный курсор на всех интерактивных элементах */
+  a, button, input, textarea, div, span {
+    cursor: none !important; /* Убираем стандартный курсор */
+  }
+  

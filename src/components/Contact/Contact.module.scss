@@ -1,0 +1,29 @@
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+  }
+
+  
+  .title {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin: 0;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  }
+  
+  .subtitle {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 10px 0 0;
+    opacity: 0.8;
+    text-transform: uppercase;
+  }
+  

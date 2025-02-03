@@ -1,0 +1,74 @@
+{
+  "projects": [
+    {
+      "src": "/castaway.png",
+      "link": "https://aly0n1a.github.io/castaway/",
+      "alt": "Project Image 1",
+      "title": "Castaway",
+      "id": "e64d"
+    },
+    {
+      "src": "/shibuya.png",
+      "link": "https://shibuya-eosin.vercel.app/",
+      "alt": "Project Image 2",
+      "title": "Shibuya",
+      "id": "334b"
+    },
+    {
+      "src": "/shop.png",
+      "link": "https://shopcogfchgf.vercel.app/",
+      "alt": "Project Image 3",
+      "title": "Shop",
+      "id": "b618"
+    },
+    {
+      "src": "/CuberTeka.png",
+      "link": "https://cuber-teka2025.vercel.app/",
+      "alt": "Project Image 1",
+      "title": "CuberTeka",
+      "id": "cfb6"
+    },
+    {
+      "src": "/brands.png",
+      "link": "https://reactbrand1112024.vercel.app/",
+      "alt": "Project Image 2",
+      "title": "Brands",
+      "id": "dfe6"
+    },
+    {
+      "src": "/shop.png",
+      "link": "https://shopcogfchgf.vercel.app/",
+      "alt": "Project Image 3",
+      "title": "Shop",
+      "id": "0bdf"
+    },
+    {
+      "id": "3daf",
+      "src": "аыывывыыв",
+      "link": "вывывывыв",
+      "alt": "вывыфыцвыы",
+      "title": "ывыввывыв"
+    },
+    {
+      "id": "df57",
+      "src": "ваввыв",
+      "link": "ываываув",
+      "alt": "ауааыас",
+      "title": "аыаыуаку"
+    },
+    {
+      "id": "16f2",
+      "src": "упуилпрыпдвяп",
+      "link": "вваловабивиола",
+      "alt": "аавыаывваотыв",
+      "title": "ыаивыаилывалиоы"
+    },
+    {
+      "id": "ef00",
+      "src": "упуилпрыпдвяп",
+      "link": "вваловабивиола",
+      "alt": "аавыаывваотыв",
+      "title": "ыаивыаилывалиоы"
+    }
+  ]
+}
